@@ -1,0 +1,38 @@
+
+@font-face {
+    font-family: 'Minecraft-Normal';
+    src: url('fonts/MinecraftRegular-Bmg3.otf');
+}
+
+@font-face {
+	font-family: 'Minecraft-Italics';
+	src: url('fonts/MinecraftItalic-R8Mo.otf');
+}
+
+@font-face {
+	font-family: 'Minecraft-Bold';
+	src: url('fonts/MinecraftBold-nMK1.otf');
+}
+
+@font-face {
+	font-family: 'Minecraft-Bold-Italics';
+	src: url('fonts/MinecraftBoldItalic-1y1e.otf');
+}
+
+body {
+	background-color: #f2fafa;
+}
+
+mainContent, p {
+	text-align: center;
+	font-family: Minecraft-Italics;
+	font-size: 20px;
+}
+
+h1 {
+	text-align: center;
+	background-color: #58a8a8;
+	font-family: Minecraft-Normal;
+	color: white;
+	font-size: 50px;
+}
