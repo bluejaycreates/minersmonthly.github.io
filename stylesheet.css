@@ -20,19 +20,52 @@
 }
 
 body {
-	background-color: #f2fafa;
+	background-color: #58a8a8;
+	padding: 0px;
 }
 
-mainContent, p {
+p {
 	text-align: center;
 	font-family: Minecraft-Italics;
 	font-size: 20px;
 }
 
+h2 {
+	text-align: center;
+	font-family: Minecraft-Bold;
+	font-size: 50px;
+}
+
 h1 {
 	text-align: center;
-	background-color: #58a8a8;
+	margin-top: 0px;
+	padding-top: 15px;
+	padding-bottom:250px;
+	background-image: url('images/banner.png');
+	background-color: rgba(70, 72, 82, 0.3);
+	background-repeat: no-repeat;
+	background-size: 100%;
 	font-family: Minecraft-Normal;
 	color: white;
-	font-size: 50px;
+	font-size: 140px;
+}
+
+#mainContent {
+	background-color: #f2fafa;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding-bottom: 5%;
+	position: absolute;
+	bottom: 0%;
+	top: 60%;
+}
+
+#header {
+	background-color: #f2fafa;
+	height: 40px;
+}
+
+#headerStrip {
+	background-color: #4ecccc;
+	height: 4px;
 }
