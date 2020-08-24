@@ -20,52 +20,225 @@
 }
 
 body {
-	background-color: #58a8a8;
-	padding: 0px;
+	background-color: white;
+	padding: 5px;
 }
 
 p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	margin: 2px;
+}
+
+h3 {
 	text-align: center;
 	font-family: Minecraft-Italics;
 	font-size: 20px;
+	margin-bottom: 2px;
 }
 
 h2 {
 	text-align: center;
-	font-family: Minecraft-Bold;
-	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 64px;
+	padding-top: 100px;
 }
 
 h1 {
 	text-align: center;
-	margin-top: 0px;
-	padding-top: 15px;
+	margin-top: 15px;
+	padding-top: 25px;
 	padding-bottom:250px;
-	background-image: url('images/banner.png');
-	background-color: rgba(70, 72, 82, 0.3);
-	background-repeat: no-repeat;
-	background-size: 100%;
 	font-family: Minecraft-Normal;
 	color: white;
-	font-size: 140px;
+	font-size: 120px;
 }
 
-#mainContent {
-	background-color: #f2fafa;
-	margin-left: 15%;
-	margin-right: 15%;
-	padding-bottom: 5%;
-	position: absolute;
-	bottom: 0%;
-	top: 60%;
+ul {
+	list-style-type: none;
+	margin: 0;
+	margin-left: 30px;
+	padding: 0;
+	overflow: hidden;
+	background-color: #ecf4f3;
 }
 
-#header {
-	background-color: #f2fafa;
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 5px 16px;
+	margin-top: 10px;
+	text-decoration: none;
+}
+
+td a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	margin: 2px;
+	color: black;
+	text-decoration: none;
+}
+
+#navbarIcon {
 	height: 40px;
+	width: 40px;
+	margin: 0px 0px;
+	padding: 0px 0px;
 }
 
-#headerStrip {
-	background-color: #4ecccc;
-	height: 4px;
+.icon {
+	padding: 0px;
+	margin: 5px 10px;
+}
+
+li a:hover:not(.active) {
+	background-color: #d1eecc;
+}
+
+.active {
+	background-color: #4CAF50;
+}
+
+#container {
+	background-color: #ecf4f3;
+	padding: 0px 36px;
+}
+
+#page {
+	background-color: #57a99a;
+}
+
+#banner {
+	background-image: url('images/banner.png');
+	background-color: rgba(70, 72, 82, 0.3);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-top: solid #76dbd1 10px;
+	margin: 0px;
+}
+
+#navbar {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	background-color: #ecf4f3;
+	padding: 3px;
+	margin: 0px;
+}
+
+#logo {
+	height: 55px;
+	width: 55px;;
+}
+
+#searchBar {
+	height: 40px;
+	width: 350px;
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	margin-top: 5px;
+	margin-bottom: 16px;
+	background-color: #D3D3D3;
+	border: solid #D3D3D3;
+}
+
+#main {
+	background-color: #f2fafa;
+	margin: 0px 100px;
+	border-left: solid #76dbd1 10px;
+	border-right: solid #76dbd1 10px;
+}
+
+#credits {
+	text-align: center;
+}
+
+#defaultPFP {
+	height: 200px;
+	width: 200px;
+}
+
+#searchIcon {
+	height: 35px;
+	width: 35px;
+	float: left;
+	margin: 5px 3px;
+}
+
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media screen and (max-width: 900px) {
+	#credits {
+		width: 50px;
+	}
+	
+	#main {
+		background-color: #f2fafa;
+		margin: 0px 25px;
+	}
+	
+	li {
+		float: none;
+	}
+	
+	#defaultPFP {
+		height: 60px;
+		width: 60px;
+	}
+	
+	td a, p {
+		font-size: 12px;
+	}
+	
+	ul {
+	  list-style-type: none;
+	  margin-left: auto;
+	  margin-right: auto;
+	  padding: 0;
+	  width: 200px;
+	}
+
+	li a {
+	  display: block;
+	  padding: 8px 16px;
+	  text-decoration: none;
+	}
+	
+	#searchBar {
+		height: 20px;
+		width: 100%;
+		float: left;
+		font-size: 12px;
+	}
+	
+	#searchIcon {
+		display: none;
+	}
+	
+	#logo {
+		height: 70px;
+		width: 70x;
+		margin-bottom: 0px;
+		padding: 0px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	#defaultPFP {
+		height: 100px;
+		width: 100px;
+	}
+	
+	#navbar {
+		font-size: 12px;
+	}
 }
